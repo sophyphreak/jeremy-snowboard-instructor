@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          I'll teach you to snowboard
         </Link>
       </h1>
     </div>
