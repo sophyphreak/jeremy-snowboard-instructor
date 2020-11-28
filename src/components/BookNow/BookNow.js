@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import "./BookNow.css"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -16,7 +17,7 @@ import Img from "gatsby-image"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
+      bookNow: file(relativePath: { eq: "book-now.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -26,11 +27,21 @@ const Image = () => {
     }
   `)
 
-  if (!data?.placeholderImage?.childImageSharp?.fluid) {
+  if (!data?.bookNow?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
   }
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <a
+      href="https://www.breckenridge.com/plan-your-trip/ski-and-ride-lessons/category/private.aspx"
+      target="_blank"
+    >
+      <Img
+        className="book-now center"
+        fluid={data.bookNow.childImageSharp.fluid}
+      />
+    </a>
+  )
 }
 
 export default Image

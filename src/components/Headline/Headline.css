@@ -1,0 +1,15 @@
+h1 {
+  color: white;
+  background-color: blue;
+  padding: 1rem;
+}
+
+.blue-highlight h4 {
+  color: white;
+  background-color: blue;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
