@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `I'll teach you to snowboard`,
-    description: `I'm going to teach you to snowboard.`,
+    title: `PRIVATE SNOWBOARD LESSONS AT BRECKENRIDGE SKI RESORT WITH JEREMY HORN`,
+    description: `PRIVATE SNOWBOARD LESSONS AT BRECKENRIDGE SKI RESORT WITH JEREMY HORN`,
     author: `@sophyphreak`,
   },
   plugins: [
