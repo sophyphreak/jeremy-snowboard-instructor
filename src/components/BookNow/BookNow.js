@@ -35,6 +35,7 @@ const Image = () => {
     <a
       href="https://www.breckenridge.com/plan-your-trip/ski-and-ride-lessons/category/private.aspx"
       target="_blank"
+      rel="noreferrer"
     >
       <Img
         className="book-now center"

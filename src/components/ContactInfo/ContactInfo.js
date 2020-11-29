@@ -4,8 +4,8 @@ import "./ContactInfo.css"
 
 const ContactInfo = () => (
   <div className="space-between red-highlight">
-    <h2>Phone number: 301-613-3161</h2>
-    <h2>Venmo: @hornjeremy2</h2>
+    <h3>Phone number: 301-613-3161</h3>
+    <h3>Venmo: @hornjeremy2</h3>
   </div>
 )
 
