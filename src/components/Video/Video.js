@@ -3,11 +3,10 @@ import React from "react"
 import "./Video.css"
 
 const Video = () => (
-  <p align="center">
+  <p align="center" className="container">
     <iframe
+      className="responsive-iframe"
       title="Jeremy Horn Snowboard Instructor at Breckenridge"
-      width="560"
-      height="315"
       src="https://www.youtube.com/embed/8pEoZVgXH8w"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"

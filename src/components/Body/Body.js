@@ -8,10 +8,10 @@ import "./Body.css"
 
 const Body = () => (
   <div className="main">
+    <BookNow />
     <h2 className="text-center">
       Get the most out of your Breckenridge snowboarding experience!
     </h2>
-    <BookNow />
     <p>Hi, I'm Jeremy!</p>
     <Video />
     <p>

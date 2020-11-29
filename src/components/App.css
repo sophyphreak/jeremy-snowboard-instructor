@@ -32,3 +32,13 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0px;
+  }
+  ul.space-between {
+    display: block;
+    justify-content: baseline;
+  }
+}

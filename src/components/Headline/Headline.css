@@ -19,3 +19,20 @@ li {
   margin: 0rem 1rem;
   padding-bottom: 0.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.1rem;
+    -webkit-text-stroke: 0px black;
+  }
+
+  li {
+    font-size: small;
+    padding: 0px;
+    margin: -0.5rem;
+  }
+
+  ul {
+    padding-bottom: 0.5rem;
+  }
+}

@@ -5,7 +5,7 @@ import Body from "./Body/Body"
 import "./App.css"
 
 const App = () => (
-  <div className="main">
+  <div>
     <ContactInfo />
     <Headline />
     <Body />

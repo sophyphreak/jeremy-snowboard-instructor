@@ -3,3 +3,11 @@
   background-color: red;
   padding: 0 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .red-highlight {
+    font-size: 0.5rem;
+    margin-bottom: -0.5rem;
+    margin-top: -0.5rem;
+  }
+}
