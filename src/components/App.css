@@ -6,7 +6,8 @@ html {
   overflow-y: scroll;
 }
 body {
-  margin: 0 1rem;
+  max-width: 960px;
+  margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
